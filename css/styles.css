@@ -90,7 +90,7 @@ button:hover {
   color: #2196f3;
 }
 
-.current::after {
+.current:after {
     display: block;
     content: "";
     height: 4px;
