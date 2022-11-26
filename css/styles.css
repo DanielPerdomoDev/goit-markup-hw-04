@@ -82,12 +82,21 @@ button:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 76px;
   letter-spacing: 0.02em;
 }
 
 .current {
   color: #2196f3;
+}
+
+.current::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #2196f3;
+    border-radius: 2px;    
 }
 
 .navbar > li > a:hover {
