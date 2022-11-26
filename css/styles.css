@@ -405,7 +405,7 @@ address > a {
   margin: 16px auto 30px;
 }
 
-.footer-social-item {
+.team-social-item, .footer-social-item {
   display: flex;
   align-items: center;
   justify-content: center;
